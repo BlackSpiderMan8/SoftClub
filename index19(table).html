@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 1px solid black;            
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        th,td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px 10px;
+        }
+
+        .table8 th{
+            
+            padding: 5px 30px;
+        }
+        .ninjaA{
+            text-align: center;
+            background-color: pink;
+        }
+        .headers{
+            background-color: yellow;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Table</caption>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Surname</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Avrangzeb</td>
+            <td>Maqulshoev</td>
+        </tr>
+
+        <tr>
+            <td>256651684</td>
+            <td>aoavomavmaalkmakmla</td>
+            <td>oamvoamaoffalkrmvamf</td>
+        </tr>
+
+    </table>
+
+    <table class="table2">
+        <caption>New Table</caption>
+
+        <tr>
+            <th>FirstName</th>
+            <td>Jill</td>
+            <td>Eve</td>
+        </tr>
+        <tr>
+            <th>LastName</th>
+            <td>Smith</td>
+            <td>Jackson</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>50</td>
+            <td>94</td>
+        </tr>
+
+
+    </table>
+
+    <table class="table3">
+
+        <tr>
+            <td>Colomu 1</td>
+            <td>Colomu 2</td>
+            <td>Colomu 3</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">Column 3</td>
+        </tr>
+
+    </table>
+
+    <table class="table4">
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+
+        <tr>
+            <th rowspan="6">Hours</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wen</th>
+            <th>Thu</th>
+            <th>Fri</th>
+        </tr>
+
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Arts</td>
+        </tr>
+
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+            <td>Sport</td>
+        </tr>
+
+        <tr>
+            <th colspan="5">Lunch</th>
+        </tr>
+
+        <tr>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td rowspan="2">Project</td>
+        </tr>
+
+        <tr>
+            <td>Social</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Social</td>
+        </tr>
+    </table>
+
+    <table class="table5">
+        <caption>Time Table</caption>
+
+        <tr>
+            <th>Day/Period</th>
+            <th>I <br> 9:30-10:20</th>
+            <th>II <br> 10:20-11:10</th>
+            <th>III <br> 11:10-12:00</th>
+            <th>12:00-12:40</th>
+            <th>IV <br> 12:40-1:30</th>
+            <th>V <br> 1:30-2:20</th>
+            <th>VI <br> 2:20-3:10</th>
+            <th>VII <br> 3:10-4:00</th>
+        </tr>
+
+        <tr>
+            <th>Monday</th>
+            <td>Eng</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <th rowspan="6">Lunch</th>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+        </tr>
+
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td>SPORT</td>
+        </tr>
+
+        <tr>
+            <th>Wednesday</th>
+            <td>Mat</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+        </tr>
+
+        <tr>
+            <th>Thursday</th>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+        </tr>
+
+        <tr>
+            <th>Friday</th>
+            <td colspan="3">LAB</td>
+            <td>Mat</td>
+            <td>Che</td>
+            <td>Eng</td>
+            <td>Phy</td>
+        </tr>
+
+        <tr>
+            <th>Saturday</th>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Mat</td>
+            <td colspan="3">SEMINAR</td>
+            <td>SPORT</td>
+        </tr>
+    </table>
+
+    <table class="Table6">
+        <caption>Health Chart</caption>
+
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2">Fasting Vakie</td>
+            <td>After Eating</td>
+        </tr>
+
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hourse after eating</td>
+        </tr>
+
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+
+    <table class="table7">
+        <tr>
+            <th rowspan="2">Subject Code and Subject Name</th>
+            <th colspan="2">Internal Assessment</th>
+            <th colspan="2">External Assessment</th>
+            <th colspan="2">Grand Total</th>
+            <th rowspan="2">Remark</th>
+        </tr>
+
+        <tr>
+            <th>MM</th>
+            <th>MO</th>
+            <th>MM</th>
+            <th>MO</th>
+            <th>MM</th>
+            <th>MO</th>
+        </tr>
+
+        <tr>
+            <td>Economics Theory</td>
+            <td>40</td>
+            <td>32</td>
+            <td>60</td>
+            <td>43</td>
+            <td>100</td>
+            <td>75</td>
+            <td>P</td>
+        </tr>
+
+        <tr>
+            <td>Elements of Statistic</td>
+            <td>40</td>
+            <td>31</td>
+            <td>60</td>
+            <td>38</td>
+            <td>100</td>
+            <td>69</td>
+            <td>P</td>
+        </tr>
+
+        <tr>
+            <td>Company Law</td>
+            <td>40</td>
+            <td>32</td>
+            <td>60</td>
+            <td>47</td>
+            <td>100</td>
+            <td>79</td>
+            <td>P</td>
+        </tr>
+
+        <tr>
+            <td>Money, Banking, Financial Management</td>
+            <td>40</td>
+            <td>31</td>
+            <td>60</td>
+            <td>36</td>
+            <td>100</td>
+            <td>67</td>
+            <td>P</td>
+        </tr>
+
+        <tr>
+            <td>Elements of Coding</td>
+            <td>40</td>
+            <td>32</td>
+            <td>60</td>
+            <td>47</td>
+            <td>100</td>
+            <td>79</td>
+            <td>P</td>
+        </tr>
+
+    </table>
+
+    <table class="table8">
+
+        <caption>Ninja Details</caption>
+
+        <tr class="headers">
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td class="ninjaA">Ninja A</td>
+            <td>18</td>
+            <td>B</td>
+        </tr>
+
+        <tr>
+            <td>Ninja B</td>
+            <td>23</td>
+            <td>C</td>
+        </tr>
+
+        <tr>
+            <td>Ninja C</td>
+            <td>22</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <th colspan="3">Ninja C - the best learner</th>
+        </tr>
+
+    </table>
+</body>
+</html>
